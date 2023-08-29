@@ -33,7 +33,8 @@ This script will guide you through the installation process and ensure that Dock
 4. **Follow On-Screen Instructions:**
 During the installation process, follow any on-screen instructions provided by the script.
 
-That's it! You've successfully installed Docker Automation and configured Docker on your system.## Features
+That's it! You've successfully installed Docker Automation and configured Docker on your system.
+## Features
 
 Docker Automation simplifies the installation of essential Docker-related tools, providing a hassle-free experience for Docker enthusiasts and developers. Key features include:
 
