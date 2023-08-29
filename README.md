@@ -33,22 +33,27 @@ This script will guide you through the installation process and ensure that Dock
 4. **Follow On-Screen Instructions:**
 During the installation process, follow any on-screen instructions provided by the script.
 
-That's it! You've successfully installed Docker Automation and configured Docker on your system.
-## Features
+That's it! You've successfully installed Docker Automation and configured Docker on your system.## Features
 
-Docker Automation offers the following features to enhance your Docker installation experience:
+Docker Automation simplifies the installation of essential Docker-related tools, providing a hassle-free experience for Docker enthusiasts and developers. Key features include:
 
-- **Simplified Installation:** Quickly and easily install Docker and related tools on various Linux distributions.
+- **Docker Installation:** Install Docker, a leading containerization platform, allowing you to create, deploy, and manage containers with ease.
 
-- **Automatic Updates:** Docker Automation checks for updates to ensure you have the latest version, providing a hassle-free experience.
+- **Docker Compose:** Set up Docker Compose, a tool for defining and running multi-container Docker applications. Simplify complex application deployment.
+
+- **NGINX Proxy Manager:** Install NGINX Proxy Manager, a user-friendly interface for managing NGINX reverse proxy servers. Easily handle routing and SSL/TLS configurations.
+
+- **Portainer CE:** Enjoy the benefits of Portainer Community Edition, a powerful Docker management tool that provides a web-based interface for Docker container management.
+
+- **Automatic Updates:** Docker Automation checks for updates to ensure you have the latest versions of these essential tools.
 
 - **Cross-Distribution Compatibility:** Compatible with popular Linux distributions, including Debian, Ubuntu, CentOS, Fedora, Arch Linux, and OpenSUSE.
 
-- **User-Friendly:** The script guides you through the installation process with clear instructions and prompts.
+- **User-Friendly:** The script guides you through the installation process for these tools with clear instructions and prompts.
 
-- **Enhanced Security:** Docker Automation helps you set up Docker with recommended security practices.
+- **Enhanced Security:** Docker Automation helps you set up Docker and related tools with recommended security practices.
 
-- **Customization:** Easily configure Docker to suit your specific needs during the installation process.
+- **Customization:** Easily configure Docker, Docker Compose, NGINX Proxy Manager, and Portainer CE to suit your specific needs during the installation process.
 
 - **Efficiency:** Save time and effort with a streamlined installation process, whether you're a beginner or an experienced user.
 
@@ -58,9 +63,7 @@ Docker Automation offers the following features to enhance your Docker installat
 
 - **Open Source:** Docker Automation is open-source software, allowing you to inspect and modify the code as needed.
 
-Enjoy the benefits of Docker Automation and simplify your Docker setup on Linux.
-
-
+Simplify your Docker environment setup and management with Docker Automation and these essential Docker-related tools.
 
 ## License
 
