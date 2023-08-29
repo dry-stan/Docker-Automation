@@ -70,26 +70,28 @@ while true; do
     # Function to install NGINX Proxy Manager
     install_nginx_proxy_manager() {
         echo "Installing NGINX Proxy Manager..."
-        
+
         # Create NGINX Proxy Manager directory
         mkdir -p ~/nginx-proxy-manager
         cd ~/nginx-proxy-manager || exit
-        
-        # Create a Docker Compose file
-        echo "version: '3.8'
-        services:
-          app:
-            image: 'jc21/nginx-proxy-manager:latest'
-            container_name: nginx-proxy-manager
-            restart: unless-stopped
-            ports:
-              - '80:80'
-              - '81:81'
-              - '443:443'
-            volumes:
-              - ./data:/app/data
-              - ./letsencrypt:/app/letsencrypt
-              - ./config:/app/config" > docker-compose.yml
+
+        # Create a Docker Compose file with proper indentation
+        cat <<EOL > docker-compose.yml
+version: '3.8'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: nginx-proxy-manager
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/app/data
+      - ./letsencrypt:/app/letsencrypt
+      - ./config:/app/config
+EOL
 
         # Run Docker Compose
         docker-compose up -d
@@ -152,3 +154,4 @@ while true; do
         done
     done
 done
+
